@@ -53,7 +53,7 @@ This value points your React frontend to the backend API.
 
 🛠️ Run Locally
 1. Clone the Repository
-git clone https://github.com/nune-pavan/DocSpot-Seamless-Appointment-Booking-for-Health.git
+git clone https://github.com/bhavitha-193/Docspot-Seamless-Appointment-Booking-For-Health.git
 cd DocSpot-Seamless-Appointment-Booking-for-Health/project\ files
 
 
@@ -78,6 +78,7 @@ React.js
 Express.js
 
 Material UI + Tailwind CSS
+
 
 
 
