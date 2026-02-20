@@ -1,0 +1,44 @@
+# .github/workflows/main.yml
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      # -------- FRONTEND --------
+      - name: Install Frontend Dependencies
+        run: npm install
+        working-directory: ./project_files/Client
+
+      - name: Build Frontend
+        run: npm run build
+        working-directory: ./project_files/Client
+        env:
+          CI: false
+
+      # -------- BACKEND --------
+      - name: Install Backend Dependencies
+        run: npm install
+        working-directory: ./project_files/Server
+
+      - name: Check MongoDB Connection
+        run: npm run check
+        working-directory: ./project_files/Server
+        env:
+          DB_URI: ${{ secrets.DB_URI }}
+          JWT_SECRET: ${{ secrets.JWT_SECRET }}
+          PORT: ${{ secrets.PORT }}
