@@ -16,7 +16,7 @@
 ---
 
 ## 🏗️ Project Structure
-
+```
 project files/
 ├── Client/ # React Frontend
 │ ├── public/
@@ -33,7 +33,7 @@ project files/
 │ ├── utils/
 │ └── server.js
 └── .gitignore
-
+```
 
 ---
 project demo video and document linK:
@@ -82,5 +82,6 @@ React.js
 Express.js
 
 Material UI + Tailwind CSS
+
 
 
