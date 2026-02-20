@@ -35,10 +35,6 @@ project files/
 └── .gitignore
 ```
 
----
-project demo video and document linK:
-https://drive.google.com/drive/folders/1ri8dJv5FLHfZQPdZFIbB8RrRmJh2jcVl
-
 
 ## 🔐 Environment Variables
 
@@ -82,6 +78,7 @@ React.js
 Express.js
 
 Material UI + Tailwind CSS
+
 
 
 
