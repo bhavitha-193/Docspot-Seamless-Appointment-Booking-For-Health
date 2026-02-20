@@ -1,4 +1,4 @@
-# 🩺 DocSpot – Seamless Appointment Booking for Health
+# 🩺 DocSpot – Seamless Appointment Booking For Health
 
 **DocSpot** is a full-stack web application that simplifies doctor-patient interactions. Patients can register, view nearby doctors, book appointments, and manage profiles. Doctors can apply, manage appointments, and admins can review doctor applications.
 
@@ -82,3 +82,4 @@ React.js
 Express.js
 
 Material UI + Tailwind CSS
+
